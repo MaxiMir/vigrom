@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "name": "The Progressive Vue.js Framework",
+  "img": "/images/article.png",
+  "description": "Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful. In case some of you are wondering, my name is Jan, and I come from a pretty crazy, mixed yet creative background spanning web design, music, filmmaking and project management. I’ve picked up coding again 2 years ago, leaving a corporate job to jump into the unknown. JavaScript seemed like the obvious choice based on my previous knowledge of HTML, CSS and jQuery. Then came React, introducing another abstraction and giving me a hard time to grasp its concept. I never really got a chance to code a real life application in React. Luckily enough, a first proper programming job I landed required an alternative library."
+}

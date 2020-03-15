@@ -8,5 +8,3 @@ const distPath = path.resolve(__dirname, 'dist')
 
 app.use(serveStatic(distPath))
 app.listen(port)
-
-console.log('server started ' + port)

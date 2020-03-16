@@ -13,7 +13,7 @@
         {{ link.name }}
       </router-link>
     </nav>
-    <div v-if="isAuthUser">
+    <div v-if="isAuthenticated">
       <div class="btn-group">
         <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
@@ -36,6 +36,8 @@
 </template>
 
 <script>
+  import { mapGetters } from 'vuex'
+
   export default {
     data() {
       return {
@@ -46,12 +48,7 @@
       }
     },
     computed: {
-      isAuthUser() {
-        return this.$store.getters.isAuthenticated
-      },
-      userName() {
-        return this.$store.getters.user.name
-      },
+      ...mapGetters(['isAuthenticated', 'userName'])
     },
     methods: {
       logoutHandler() {

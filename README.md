@@ -23,8 +23,6 @@
 
 ### [Посмотреть демо](https://vigrom.herokuapp.com/)
 
-![](_intro.gif)
-
 ## Project setup
 ```
 npm install
